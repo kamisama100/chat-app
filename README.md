@@ -12,5 +12,5 @@ You can then press the account name and add it to your friends. The "add to frie
 You can then accept the friend request sent to the second account. After that, you can now start chatting. 
 
 When you start to chat. A sign for a new message will show a blue dot beside the name you are chatting with.
-
+You can also remove a friend using a button that is also located on the same location as the "add a friend button.
 
