@@ -1,0 +1,82 @@
+h1{
+    color:#0a77f3;
+    font-size: 36px;
+    font-weight: 600;
+}
+.login{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    height: 350px;
+}
+.login div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    width: 450px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login div input{
+    width: 300px;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+    border: 1px solid #dbdbdb ;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.login div input:focus{
+    outline-color: #0a77f3;
+}
+
+.login-btn{
+    width: 110px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    background-color: #0a7cff;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    outline: none;
+    shape-outside: none;
+}
+.login-btn:hover{
+    background-color: #0a77f3;
+    border: 0;
+}
+.create-btn{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #0a7cff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.create-btn:hover{
+    color: #993399;
+}
+.eyeIcon{
+    position: absolute;
+    left: 90%;
+    z-index: 2;
+}
+.errorText{
+    color: #ff3333;
+}

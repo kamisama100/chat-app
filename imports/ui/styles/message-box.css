@@ -1,0 +1,83 @@
+.message-header{
+    background-color:white;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    height: 75px;
+    border-bottom: 1px solid rgb(189, 184, 184);
+    padding-left: 50px;
+}
+.message-body{
+    padding: 25px 200px 50px 100px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.my-msg{
+    background-color: #0a7cff;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 10px 10px 0px 10px;
+    width:auto;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-wrap: normal;
+    word-break: break-all;
+}
+.friend-msg{
+    background-color: #F2F3F5;
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 0px 10px 10px 10px;
+    width: auto;
+    min-width: min-content;
+    max-width: max-content;
+    height: auto;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    word-wrap: normal;
+    word-break: break-all;
+}
+
+.type-field{
+    position: relative;
+    display: flex;
+    width: 90%;
+    height: 40px;
+    margin-left: 8%;
+    border: none;
+    column-gap: 5px;
+}
+.type-box{
+    top: 0;
+    bottom: 0;
+    width: 80%;
+    left: 10px;
+    padding-left: 20px;
+    border: 1px solid  rgb(189, 184, 184);
+    border-radius: 9px;
+    outline: none;
+    font-size: 16px;
+}
+.send-btn{
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+.send-btn:hover{
+    cursor: pointer;
+}
+.remove-friend-btn{
+    background-color: black;
+}

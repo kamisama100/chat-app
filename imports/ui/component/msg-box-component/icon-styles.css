@@ -1,0 +1,10 @@
+.icon-style{
+    background-color: transparent;
+    padding: 7px 7px 7px 7px;
+    width: auto;
+}
+.icon-style:hover{
+    background-color: #dad4d4;
+    border-radius: 100px;
+    cursor: pointer;
+}
