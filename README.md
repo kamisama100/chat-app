@@ -4,7 +4,9 @@ Chat app made with meteor-react
 Able to create user acccounts, add and remove contacts/friends, able to chat real-time.
 I used meteor because I want to learn meteor. Making this project improved my knowledge of how it works.
 
-To run the app. Type in the command line, cd "path to chat-app" then "meteor" then go to whichever port is given in the command line.
+After you clone the app. type in command line or terminal, cd chat-app (if you're not in chat-app folder) then type 
+meteor npm install --save @babel/runtime.
+then you after installing it you can now start running the app by typing in the command line or terminal "meteor" then go to whichever port is given in the command line. 
 The first thing you need to do when you run the app is to create an account to be able to login. 
 After creating an account, you must make a new one on a different browser or incognito to be able to test out the features.
 After creating the second account, you can search the name on the search bar. Located on the left side of the main page.
